@@ -34,11 +34,15 @@ while True:
   
   
 # start your if statement to direct the user to the correct path after the user chooses a number from the menu.
+
+#note must indent the code below the while loop.
   
    if user_input=="1":
     print("The AutoCountry sales manager has authorized the purchase and selling of the following vehicles:")
+     
     print(AllowedVehiclesList) 
     print()
+     
    if user_input=="2":
     print("Exit")
     print("Thank you for using the AutoCountry Vehicle Finder, good-bye!")
