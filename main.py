@@ -27,8 +27,8 @@ while True:
   
   #allow the user to choose/inter a number from the menue after the menu loads  
    user_input=input("Please Enter the following number below from the following menu:" 
- +"                                "+ "    "+
-   choice_num1 + "     " + choic_num2+ "  "+ "     ")
+ +"\n"+ choice_num1 +"\n"+ choic_num2 +"\n")
+   
  
    print()
   
@@ -40,7 +40,7 @@ while True:
    if user_input=="1":
     print("The AutoCountry sales manager has authorized the purchase and selling of the following vehicles:")
      
-    print(AllowedVehiclesList) 
+    print(*AllowedVehiclesList, sep = "\n") 
     print()
      
    if user_input=="2":
